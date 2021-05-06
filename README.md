@@ -1,4 +1,7 @@
 # cs-tech-sinav
+lutfen main kisminda bulunan path kismina okunacak dosyanin pathini giriniz. path icinde bulunan "/"'lari "\" ile degistiriniz.
+ornek; "C:\Users\Applicant Assesment Test_4_EK_AtFil\board1.txt" yerine  "C:/Users/Applicant Assesment Test_4_EK_AtFil/board1.txt" şeklinde.
+
 puan methodunda taslarin ilk harflerine karsilik gelen sayilari return eden methodu yazdim.
 beyaz_at_tehdit mehtodunda beyaz atlarin tehdit ettigi siyah taslarin tablodki yerlerlerine 1 atanmis 2 boyutlu bir dizi return eden bir method yazdim. bunu yaparken
 hangi koordinatlarda beyaz at olduguna baktim.bunu yaparken atin hamle yapabiliecegi yerleri hesapladim. bu koordinatlarin tablo sinirlari icinde olup olmadigini kontrol ettim. 
@@ -22,7 +25,7 @@ ayni durumun tam tersini siyah taslar icin uyguladim ve siyah_kontrol_son sonucu
 
 beyaz_sonuc isimli double degiskene beyaz taslar icin hesaplanan puanı atadim. bunun icin ise beyaz_kontrol_son tablosundaki 0'dan buyuk degerlerin konumunu aldim. ayrica beyaz 
 tas kontrolunu de yaptim. tasa karsilik gelen puani 2'ye boldum ve beyaz_sonuca ekledim. tehdit altinda bulunmayan taslaer icin ise beyaz_kontrol_son tablosunda 0'a esit olan 
-degerlerin konumunu kullandim. bu degerleri direk beyaz_sonuca ekledim.
+degerlerin konumunu kullandim. bu degerleri direk beyaz_sonuca ekledim ve ekrana bastirdim.
 
 ayni durumun tam tersini siyah taslar icin uyguladim.
 
