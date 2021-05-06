@@ -174,7 +174,7 @@
         double beyaz_sonuc = 0d;
         double siyah_sonuc = 0d;
         
-        Scanner scanner = new Scanner(new BufferedReader(new FileReader("C:/Users/kaan_/OneDrive/Masaüstü/cs-tech/Applicant Assesment Test_4_EK_AtFil/board3.txt")));
+        Scanner scanner = new Scanner(new BufferedReader(new FileReader("C:/Users/kaan_/OneDrive/Masaüstü/cs-tech/Applicant Assesment Test_4_EK_AtFil/board1.txt")));
         
         int satir = 8;
         int sutun = 8;
@@ -207,7 +207,7 @@
         for(int i = 0; i < 8; i++){
             for (int j = 0; j <8 ; j++){
                 if (beyaz_kontrol_son[i][j] > 0 && konum[i][j].substring(1,2).equals("b"))
-                    beyaz_sonuc += beyaz_kontrol_son[i][j]*puan(konum[i][j].substring(0,1))/2d;
+                    beyaz_sonuc += puan(konum[i][j].substring(0,1))/2d;
                 else if (beyaz_kontrol_son[i][j] == 0 && konum[i][j].substring(1,2).equals("b"))
                     beyaz_sonuc += puan(konum[i][j].substring(0,1));
             }
@@ -217,7 +217,7 @@
         for(int i = 0; i < 8; i++){
             for (int j = 0; j <8 ; j++){
                 if (siyah_kontrol_son[i][j] > 0 && konum[i][j].substring(1,2).equals("s"))
-                    siyah_sonuc += siyah_kontrol_son[i][j]*puan(konum[i][j].substring(0,1))/2d;
+                    siyah_sonuc += puan(konum[i][j].substring(0,1))/2d;
                 else if (siyah_kontrol_son[i][j] == 0 && konum[i][j].substring(1,2).equals("s"))
                     siyah_sonuc += puan(konum[i][j].substring(0,1));
             }
