@@ -1,6 +1,6 @@
 # cs-tech-sinav
 lutfen main kisminda bulunan path kismina okunacak dosyanin pathini giriniz. path icinde bulunan "/"'lari "\" ile degistiriniz.
-ornek; "C:\Users\Applicant Assesment Test_4_EK_AtFil\board1.txt" yerine  "C:/Users/Applicant Assesment Test_4_EK_AtFil/board1.txt" şeklinde.
+ornek; "C:\Users\Applicant Assesment Test_4_EK_AtFil\board1.txt" yerine  "C:/Users/Applicant Assesment Test_4_EK_AtFil/board1.txt" seklinde.
 
 puan methodunda taslarin ilk harflerine karsilik gelen sayilari return eden methodu yazdim.
 beyaz_at_tehdit mehtodunda beyaz atlarin tehdit ettigi siyah taslarin tablodki yerlerlerine 1 atanmis 2 boyutlu bir dizi return eden bir method yazdim. bunu yaparken
